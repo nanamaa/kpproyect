@@ -1,0 +1,19 @@
+/* Estilo personalizado para los encabezados */
+.table thead {
+    background-color: #e366ba; /* Azul oscuro */
+    color: white;
+}
+
+/* Estilo para las filas alternadas */
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Gris claro para filas impares */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #ffffff; /* Blanco para filas pares */
+}
+
+/* Resaltar la fila al pasar el cursor */
+.table tbody tr:hover {
+    background-color: #ddd; /* Gris claro cuando pasas el mouse */
+}
