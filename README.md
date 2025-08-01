@@ -22,4 +22,4 @@ A web-based ticketing platform built with HTML, CSS, and JavaScript. Users can s
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/ticket-system.git
+https://github.com/nanamaa/kpproyect.git
