@@ -64,3 +64,69 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# 🎟️ K-Pop Ticket Sales Platform
+
+This project is a web application for **purchasing K-Pop concert tickets**.  
+The main goal is to provide users with an easy way to buy tickets, select seats, and manage promotions in one place.
+
+---
+
+## 🚀 Key Features
+
+- 👩‍🎤 **Artist & Concert Management**  
+  List of available concerts organized by artist and date.  
+
+- 🗓️ **Date Selection**  
+  Users can filter and choose from available concert dates.  
+
+- 💰 **Promotions & Discounts**  
+  Special deals and promotions applied to selected tickets.  
+
+- 📝 **Order Records**  
+  Each confirmed purchase generates an order summary with all details.  
+
+---
+
+## 🛠️ Technologies Used
+
+- **Backend:** Laravel (PHP)  
+- **Frontend:** Blade Templates, JavaScript (jQuery)  
+- **Database:** MySQL / MariaDB  
+- **Styling:** Bootstrap / Custom CSS  
+
+---
+
+## 📂 Project Structure (Overview)
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/kpproject.git
+   cd kpproject
+
+2. Install PHP dependencies with Composer:
+
+composer install
+
+3. Copy the environment file and configure your database:
+
+cp .env.example .env
+php artisan key:generate
+
+4. Run migrations and seeders:
+
+php artisan migrate --seed
+
+5. Start the local development server:
+
+php artisan serve
+
+6. Open the project in your browser:
+
+http://localhost:8000
+
+🔨 Currently under local development.
+The next step will be to deploy the application on a hosting service and enable online purchases.
