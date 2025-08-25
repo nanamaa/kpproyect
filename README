@@ -1,0 +1,60 @@
+# 🎟️ Plataforma de Venta de Boletos K-Pop
+
+Este proyecto es una aplicación web para la **venta de boletos de conciertos de K-Pop**.  
+Su objetivo es facilitar la compra de entradas, la selección de asientos y la gestión de promociones en un solo lugar.
+
+---
+
+## 🚀 Características principales
+
+- 👩‍🎤 **Gestión de artistas y conciertos**  
+  Lista de conciertos disponibles organizados por artista y fecha.  
+
+- 🗓️ **Selección de fechas**  
+  El usuario puede filtrar y elegir entre las fechas disponibles.  
+
+- 💰 **Promociones y descuentos**  
+  Manejo de promociones especiales para boletos seleccionados.  
+
+- 📝 **Registro de órdenes**  
+  Al confirmar la compra se genera un registro con detalles del pedido.  
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- **Backend:** Laravel (PHP)  
+- **Frontend:** Blade Templates, JavaScript (jQuery)  
+- **Base de datos:** MySQL / MariaDB  
+- **Estilos:** Bootstrap / CSS personalizado  
+
+---
+
+## 📂 Estructura del proyecto (resumen)
+
+---
+
+## ⚙️ Instalación y uso
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/usuario/kpproyect.git
+   cd kpproyect
+2. Instala dependencias de PHP con Composer:
+
+composer install
+3. Copia el archivo de entorno y configura tu base de datos:
+
+cp .env.example .env
+php artisan key:generate
+
+4. Ejecuta migraciones y seeders:
+
+php artisan migrate --seed
+5. Levanta el servidor de desarrollo:
+
+php artisan serve
+6. Accede desde tu navegador en:
+
+http://localhost:8000
+
